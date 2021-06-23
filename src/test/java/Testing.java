@@ -23,7 +23,7 @@ public class Testing {
     }
 
     @Test
-    public void testForIgnoringNumberGreaterThan1000() {
+    public void testForIgnoringNumberGreaterThan1000() throws Exception {
         int result = myCalc.add("1,1000");
         assertEquals(1, result);
     }
